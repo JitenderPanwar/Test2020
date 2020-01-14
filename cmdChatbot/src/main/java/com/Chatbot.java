@@ -15,7 +15,7 @@ public class Chatbot {
 
 	public static void main(String[] args) {
 		try {
-
+			//git changes 
 			String resourcesPath = getResourcesPath();
 			System.out.println(resourcesPath);
 			MagicBooleans.trace_mode = TRACE_MODE;
