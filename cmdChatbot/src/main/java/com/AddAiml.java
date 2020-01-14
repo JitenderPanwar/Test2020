@@ -12,7 +12,7 @@ public class AddAiml {
 
 	public static void main(String[] args) {
 		try {
-
+			//check git
 			String resourcesPath = getResourcesPath();
 			System.out.println(resourcesPath);
 			MagicBooleans.trace_mode = TRACE_MODE;
