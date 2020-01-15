@@ -61,5 +61,16 @@ public class Chatbot {
 		String resourcesPath = path + File.separator + "src" + File.separator + "main" + File.separator + "resources";
 		return resourcesPath;
 	}
+	
+	//new method adds
+	private static String getResourcesPath_1() {
+		File currDir = new File(".");
+		String path = currDir.getAbsolutePath();
+		path = path.substring(0, path.length() - 2);
+		System.out.println(path);
+		String resourcesPath = path + File.separator + "src" + File.separator + "main" + File.separator + "resources";
+		return resourcesPath;
+	}
+
 
 }
