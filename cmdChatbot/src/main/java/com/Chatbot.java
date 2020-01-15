@@ -83,4 +83,11 @@ public class Chatbot {
 		System.out.println(df.format(dateobj));
 	}
 
+	
+	//project new method project - 2 cmd chatbot main line 87
+		private static void displayTime_2(){
+			DateFormat df = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
+			Date dateobj = new Date();
+			System.out.println(df.format(dateobj));
+		}
 }
