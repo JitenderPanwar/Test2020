@@ -1,6 +1,9 @@
 package com;
 
 import java.io.File;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import org.alicebot.ab.Bot;
 import org.alicebot.ab.Chat;
@@ -60,6 +63,13 @@ public class Chatbot {
 		System.out.println(path);
 		String resourcesPath = path + File.separator + "src" + File.separator + "main" + File.separator + "resources";
 		return resourcesPath;
+	}
+
+	//project new method project - 2
+	private static void displayTime(){
+		DateFormat df = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
+		Date dateobj = new Date();
+		System.out.println(df.format(dateobj));
 	}
 
 }
